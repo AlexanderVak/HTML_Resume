@@ -9,102 +9,150 @@
         body {
             font-family: Source Sans Pro;
             font-size: large;
+            margin: 0;
+            background-color: #252128;
+
         }
 
         h3 {
             font-family: Arial;
             font-size: larger;
+            color: #252128;
         }
 
         q {
             font-style: italic;
+            color: #c68a08;
         }
 
         p {
             font-family: Source Sans Pro;
-            color: #41464b;
+            color: #252128;
             font-size: large;
+        }
+
+        #container {
+            width: 900px;
+            padding-top: 90px;
+            padding-bottom: 30px;
+            padding-left: 70px;
+            padding-right: 70px;
+            margin: auto;
+            background-color: #f7f7f7;
+
+        }
+
+        .contacts {
+            border: 1px solid;
+            border-collapse: collapse;
+            margin: auto;
+        }
+
+        .contacts th,
+        td {
+            border: 1px solid;
+            text-align: center;
+            padding-right: 2em;
+            padding-top: 1em;
+            padding-left: 2em;
+            padding-bottom: 1em;
         }
     </style>
 </head>
-<header style="background:#9282ba; padding: 20;">
-    <div>Header</div>
+
+<header style="background:#ae9dbd; padding: 8 0 8 0; position: fixed; width: 100%;">
+    <img src="peepholeFrame.jpg" style="width: 100px; height: 55px;">
 </header>
 
 <body>
-    <div style="font-family: Arial;">
-        <h1> Chandler Muriel Bing</h1>
-        <h2>jr.advertising copywriter</h2>
-        <p> <q>Hi, I'm Chandler. I make jokes when I'm uncomfortable</q> </p>
-    </div>
-    <img src="Chandler.png" alt="">
-    <div>
-        <h3>Contacts</h3>
-        <table>
-            <tr>
-                <th> email </th>
-                <th> adress </th>
-                <th> phone number </th>
-            </tr>
-            <tr>
-                <td>misschanandlerbong@mail.com</td>
-                <td>90 Bedfort St. NY 10014 USA</td>
-                <td>+16466932587</td>
-            </tr>
-        </table>
-    </div>
+    <div id="container">
 
-    <div>
-        <h3>Work experience</h3>
-        <div>
-            <h4>Junior Advertising Copywriter</h4>
-            <p>Creating catchy slogans to educate, engage, and humor customers </p>
-        </div>
-        <div>
-            <h4>Advertising Intern</h4>
-            <p>Author of award-winnig line "not suitable for adults" for the roller-blade kikcs advertisement</p>
-        </div>
-        <div>
-            <h4>IT Procurement Manager</h4>
-            <p> Specialized at statistical analysis and data configuration.
-                Point person on company's transition from the KL5 to GR6 systems</p>
-        </div>
-        <div>
-            <h4>Data Processor</h4>
-            <p>Data processing in a cubicle</p>
-        </div>
-    </div>
+        <section style="font-family: Arial; border-bottom: 2px solid; padding-bottom: 2em;">
+            <img src="Chandler.png" style="float: right;">
+            <h1 style="padding-left: 1em; padding-top: 2em;"> Chandler Muriel Bing</h1>
+            <h2 style="padding-left: 1em;">jr.advertising copywriter</h2>
+            <p style="padding-left: 1em; "> <q>Hi, I'm Chandler. I make jokes when I'm uncomfortable</q> </p>
 
-    <div>
-        <h3>Interests</h3>
-        <ul>
-            <li>Baywatch</li>
-            <li>Smoking</li>
-            <li>Bubble baths</li>
-            <li>Knicks</li>
-            <li>Velveteen rabbit</li>
-            <li>Foosball</li>
-        </ul>
-        <h3>Disinterests</h3>
-        <ul>
-            <li>Pivoting couches</li>
-            <li>Janice "Oh My God!"</li>
-        </ul>
-    </div>
+        </section>
 
-    <div>
-        <h3>References</h3>
-        <p> <q> He is the transpondster you are looking for! </q>
-            <br>
-            <a href="https://www.instagram.com/jenniferaniston/">Rachel Green</a>
-            <br>
-            (Executive at Ralph Lauren)
-        </p>
-    </div>
+        <section style="text-align: center ;">
+            <h3>Contacts</h3>
+            <table class="contacts">
+                <tr>
+                    <th> email </th>
+                    <td>misschanandlerbong@mail.com</td>
 
+                </tr>
+                <tr>
+                    <th> adress </th>
+
+                    <td>90 Bedfort St. NY 10014 USA</td>
+
+                </tr>
+                <tr>
+                    <th> phone number </th>
+                    <td>+16466932587</td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <h3>Work experience</h3>
+            <section>
+                <h4>Junior Advertising Copywriter</h4>
+                <p>Creating catchy slogans to educate, engage, and humor customers </p>
+            </section>
+            <section>
+                <h4>Advertising Intern</h4>
+                <p>Author of award-winnig line "not suitable for adults" for the roller-blade kikcs advertisement</p>
+            </section>
+            <section>
+                <h4>IT Procurement Manager</h4>
+                <p> Specialized at statistical analysis and data configuration.
+                    Point person on company's transition from the KL5 to GR6 systems</p>
+            </section>
+            <section>
+                <h4>Data Processor</h4>
+                <p>Data processing in a cubicle</p>
+            </section>
+        </section>
+
+        <section>
+            <section>
+                <h3>Interests</h3>
+                <ul>
+                    <li>Baywatch</li>
+                    <li>Smoking</li>
+                    <li>Bubble baths</li>
+                    <li>Knicks</li>
+                    <li>Velveteen rabbit</li>
+                    <li>Foosball</li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Disinterests</h3>
+                <ul>
+                    <li>Pivoting couches</li>
+                    <li>Janice "Oh My God!"</li>
+                </ul>
+            </section>
+        </section>
+
+        <section>
+            <h3>References</h3>
+            <p> <q style="position: relative;"> He is the transpondster you are looking for! </q>
+                <br>
+                <a href="https://www.instagram.com/jenniferaniston/" style="position: absolute; right: 700px;">Rachel
+                    Green</a>
+                <br>
+                (Executive at Ralph Lauren)
+            </p>
+        </section>
+    </div>
 </body>
 
-<footer style="background: #9282ba; padding: 20;">
+<footer style="background: #ae9dbd; padding: 20;">
     Footer
 </footer>
 
