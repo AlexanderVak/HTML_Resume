@@ -8,18 +8,24 @@
     <title>Chandler Bing Resume</title>
 </head>
 
-<header style="background:#ae9dbd; padding: 8 0 8 0; position: fixed; width: 100%;">
+<header>
     <img src="./images/peepholeFrame.jpg" style="width: 100px; height: 55px;">
 </header>
 
 <body>
+    <div class="sidebar">
+        <h3>Skills</h3>
+        <p></p>
+        <p>Some Text</p>
+        <p>Some Text</p>
+    </div>
     <div id="container">
 
-        <section style="font-family: Arial; border-bottom: 2px solid; padding-bottom: 2em;">
-            <img src="./images/Chandler.png" style="float: right;">
-            <h1 style="padding-left: 1em; padding-top: 2em;"> Chandler Muriel Bing</h1>
-            <h2 style="padding-left: 1em;">jr.advertising copywriter</h2>
-            <p style="padding-left: 1em; "> <q>Hi, I'm Chandler. I make jokes when I'm uncomfortable</q> </p>
+        <section class="heading">
+            <img src="./images/Chandler.png">
+            <h1> Chandler Muriel Bing</h1>
+            <h2>jr.advertising copywriter</h2>
+            <p> <q>Hi, I'm Chandler. I make jokes when I'm uncomfortable</q> </p>
 
         </section>
 
@@ -65,8 +71,8 @@
             </section>
         </section>
 
-        <section style="display: inline-block; " >
-            <section style="float: left; margin-left: 5em;">
+        <section style="display: flex; justify-content: space-between;">
+            <section>
                 <h3>Interests</h3>
                 <ul>
                     <li>Baywatch</li>
@@ -78,7 +84,7 @@
                 </ul>
             </section>
 
-            <section style="float: right; margin-left: 20em; margin-right: 5em;"">
+            <section>
                 <h3>Disinterests</h3>
                 <ul>
                     <li>Pivoting couches</li>
@@ -87,19 +93,23 @@
             </section>
         </section>
 
-        <section style="position: relative;">
+        <section class="references">
             <h3>References</h3>
             <q> He is the transpondster you are looking for! </q>
-            <a href="https://www.instagram.com/jenniferaniston/" style="position: absolute; right: 1em;">Rachel
+            <a href="https://www.instagram.com/jenniferaniston/">Rachel
                 Green</a>
-            <p style="position: absolute; right: 1em; margin-top: 0em;">(Executive at Ralph Lauren)</p>   
-            
+            <p>(Executive at Ralph Lauren)</p>
+
         </section>
     </div>
+
+
 </body>
 
-<footer style="background: #ae9dbd; padding: 20;">
-    Footer
+<footer>
+        <a href="https://github.com/AlexanderVak">
+            <img src="./images/githubIcon.png" style="width: 40;"> 
+        </a>
 </footer>
 
 </html>
