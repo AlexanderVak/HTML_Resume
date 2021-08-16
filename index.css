@@ -4,6 +4,7 @@ body {
     margin: 0;
     background-color: #252128;
 }
+
 header {
     background: #ae9dbd;
     padding: 8 0 8 0;
@@ -11,35 +12,47 @@ header {
     width: 100%;
     z-index: 1;
 }
+
+header img {
+    width: 100px;
+    height: 55px
+}
+
 footer {
     background: #ae9dbd;
     padding: 10;
     text-align: center;
 }
+
 h3 {
     font-family: Arial;
     font-size: larger;
     color: #252128;
 }
-h4{
+
+h4 {
     font-family: Arial;
     color: #252128;
 }
+
 q {
     font-style: italic;
     color: #c68a08;
 }
+
 p {
     font-family: Source Sans Pro;
     color: #252128;
     font-size: large;
 }
+
 #container {
     max-width: 800px;
     padding: 90px 70px 30px;
     margin: auto;
     background-color: #f7f7f7;
 }
+
 .sidebar {
     height: 100%;
     width: 200px;
@@ -48,40 +61,49 @@ p {
     padding-top: 90;
     background-color: #ae9dbd;
 }
+
 .heading {
     font-family: Arial;
     border-bottom: 2px solid;
     padding-bottom: 2em;
 }
+
 .heading h1 {
     padding-left: 1em;
     padding-top: 2em;
 }
+
 .heading h2, .heading p {
     padding-left: 1em;
 }
+
 .heading img {
     float: right;
     width: 200px;
 }
+
 .contacts {
     border: 1px solid;
     border-collapse: collapse;
     margin: auto;
 }
+
 .contacts th, .contacts td {
     border: 1px solid;
     text-align: center;
     padding: 1em 2em;
 }
+
 .references {
     position: relative;
     margin-bottom: 1em;
 }
+
 .references a, .references p {
     position: absolute;
     right: 1em;
 }
+
 .references p {
     margin-top: 0em;
 }
@@ -100,6 +122,10 @@ p {
         width: 100%;
         z-index: 1;
     }
+    header img {
+        width: 100px;
+        height: 55px
+    }
     footer {
         background: #ae9dbd;
         padding: 10;
@@ -107,12 +133,10 @@ p {
     }
     h3 {
         font-family: Arial;
-
         color: #252128;
     }
     h4 {
         font-family: Arial;
-
         color: #252128;
     }
     q {
@@ -168,7 +192,7 @@ p {
         position: relative;
         margin-bottom: 1em;
     }
-    .references q{
+    .references q {
         display: block;
         margin-bottom: 1em;
     }
@@ -183,7 +207,8 @@ p {
         top: 4em;
     }
 }
-@media(max-width: 991px){
+
+@media(max-width: 991px) {
     body {
         font-family: Source Sans Pro;
         font-size: medium;
@@ -197,6 +222,10 @@ p {
         width: 100%;
         z-index: 1;
     }
+    header img {
+        width: 100px;
+        height: 55px
+    }
     footer {
         background: #ae9dbd;
         padding: 10;
@@ -204,12 +233,10 @@ p {
     }
     h3 {
         font-family: Arial;
-
         color: #252128;
     }
     h4 {
         font-family: Arial;
-
         color: #252128;
     }
     q {
@@ -265,7 +292,7 @@ p {
         position: relative;
         margin-bottom: 1em;
     }
-    .references q{
+    .references q {
         display: block;
         margin-bottom: 1em;
     }
@@ -295,6 +322,10 @@ p {
         width: 100%;
         z-index: 1;
     }
+    header img {
+        width: 100px;
+        height: 55px
+    }
     footer {
         background: #ae9dbd;
         padding: 10;
@@ -319,7 +350,7 @@ p {
         color: #252128;
         font-size: 0.8em;
     }
-    li{
+    li {
         font-size: medium;
     }
     #container {
@@ -330,7 +361,7 @@ p {
     }
     .sidebar {
         height: 100%;
-        width: 130px;
+        width: 100px;
         position: fixed;
         float: left;
         padding-top: 90;
@@ -367,7 +398,7 @@ p {
         position: relative;
         margin-bottom: 1em;
     }
-    .references q{
+    .references q {
         display: block;
         margin-bottom: 1em;
     }
@@ -383,3 +414,106 @@ p {
     }
 }
 
+@media(max-width: 670px) {
+    body {
+        font-family: Source Sans Pro;
+        font-size: medium;
+        margin: 0;
+        background-color: #252128;
+    }
+    header {
+        background: #ae9dbd;
+        padding: 8 0 8 0;
+        position: fixed;
+        width: 100%;
+        z-index: 1;
+    }
+    header img {
+        width: 70px;
+        height: 45px;
+    }
+    footer {
+        background: #ae9dbd;
+        padding: 10;
+        text-align: center;
+    }
+    h3 {
+        font-family: Arial;
+        font-size: 1em;
+        color: #252128;
+    }
+    h4 {
+        font-family: Arial;
+        font-size: 0.8em;
+        color: #252128;
+    }
+    q {
+        font-style: italic;
+        color: #c68a08;
+    }
+    p {
+        font-family: Source Sans Pro;
+        color: #252128;
+        font-size: 0.8em;
+    }
+    li {
+        font-size: medium;
+    }
+    #container {
+        padding: 90px 70px 30px;
+        background-color: #f7f7f7;
+    }
+    .sidebar {
+        height: 100%;
+        width: 50px;
+        position: fixed;
+        float: left;
+        padding-top: 90;
+        background-color: #ae9dbd;
+    }
+    .heading {
+        font-family: Arial;
+        border-bottom: 2px solid;
+        padding-bottom: 2em;
+    }
+    .heading h1 {
+        padding-left: 1em;
+        padding-top: 2em;
+    }
+    .heading h2, .heading p {
+        padding-left: 1em;
+    }
+    .heading img {
+        float: right;
+        width: 120px;
+    }
+    .contacts {
+        border: 1px solid;
+        border-collapse: collapse;
+        margin: auto;
+    }
+    .contacts th, .contacts td {
+        border: 1px solid;
+        text-align: center;
+        padding: 1em 2em;
+        font-size: small;
+    }
+    .references {
+        position: relative;
+        margin-bottom: 1em;
+    }
+    .references q {
+        display: block;
+        margin-bottom: 1em;
+    }
+    .references a {
+        position: absolute;
+        right: 1em;
+        top: 3em;
+    }
+    .references p {
+        position: absolute;
+        right: 1em;
+        top: 4em;
+    }
+}
