@@ -4,71 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <title>Chandler Bing Resume</title>
-    <style>
-        body {
-            font-family: Source Sans Pro;
-            font-size: large;
-            margin: 0;
-            background-color: #252128;
-
-        }
-
-        h3 {
-            font-family: Arial;
-            font-size: larger;
-            color: #252128;
-        }
-
-        q {
-            font-style: italic;
-            color: #c68a08;
-        }
-
-        p {
-            font-family: Source Sans Pro;
-            color: #252128;
-            font-size: large;
-        }
-
-        #container {
-            width: 900px;
-            padding-top: 90px;
-            padding-bottom: 30px;
-            padding-left: 70px;
-            padding-right: 70px;
-            margin: auto;
-            background-color: #f7f7f7;
-
-        }
-
-        .contacts {
-            border: 1px solid;
-            border-collapse: collapse;
-            margin: auto;
-        }
-
-        .contacts th,
-        td {
-            border: 1px solid;
-            text-align: center;
-            padding-right: 2em;
-            padding-top: 1em;
-            padding-left: 2em;
-            padding-bottom: 1em;
-        }
-    </style>
 </head>
 
 <header style="background:#ae9dbd; padding: 8 0 8 0; position: fixed; width: 100%;">
-    <img src="peepholeFrame.jpg" style="width: 100px; height: 55px;">
+    <img src="./images/peepholeFrame.jpg" style="width: 100px; height: 55px;">
 </header>
 
 <body>
     <div id="container">
 
         <section style="font-family: Arial; border-bottom: 2px solid; padding-bottom: 2em;">
-            <img src="Chandler.png" style="float: right;">
+            <img src="./images/Chandler.png" style="float: right;">
             <h1 style="padding-left: 1em; padding-top: 2em;"> Chandler Muriel Bing</h1>
             <h2 style="padding-left: 1em;">jr.advertising copywriter</h2>
             <p style="padding-left: 1em; "> <q>Hi, I'm Chandler. I make jokes when I'm uncomfortable</q> </p>
@@ -117,8 +65,8 @@
             </section>
         </section>
 
-        <section>
-            <section>
+        <section style="display: inline-block; " >
+            <section style="float: left; margin-left: 5em;">
                 <h3>Interests</h3>
                 <ul>
                     <li>Baywatch</li>
@@ -130,7 +78,7 @@
                 </ul>
             </section>
 
-            <section>
+            <section style="float: right; margin-left: 20em; margin-right: 5em;"">
                 <h3>Disinterests</h3>
                 <ul>
                     <li>Pivoting couches</li>
@@ -139,15 +87,13 @@
             </section>
         </section>
 
-        <section>
+        <section style="position: relative;">
             <h3>References</h3>
-            <p> <q style="position: relative;"> He is the transpondster you are looking for! </q>
-                <br>
-                <a href="https://www.instagram.com/jenniferaniston/" style="position: absolute; right: 700px;">Rachel
-                    Green</a>
-                <br>
-                (Executive at Ralph Lauren)
-            </p>
+            <q> He is the transpondster you are looking for! </q>
+            <a href="https://www.instagram.com/jenniferaniston/" style="position: absolute; right: 1em;">Rachel
+                Green</a>
+            <p style="position: absolute; right: 1em; margin-top: 0em;">(Executive at Ralph Lauren)</p>   
+            
         </section>
     </div>
 </body>
