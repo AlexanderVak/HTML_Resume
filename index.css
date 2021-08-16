@@ -23,6 +23,9 @@ footer {
     padding: 10;
     text-align: center;
 }
+footer img{
+    width: 40px;
+}
 
 h3 {
     font-family: Arial;
@@ -131,6 +134,9 @@ p {
         padding: 10;
         text-align: center;
     }
+    footer img{
+        width: 40px;
+    }
     h3 {
         font-family: Arial;
         color: #252128;
@@ -231,6 +237,9 @@ p {
         padding: 10;
         text-align: center;
     }
+    footer img{
+        width: 40px;
+    }
     h3 {
         font-family: Arial;
         color: #252128;
@@ -330,6 +339,9 @@ p {
         background: #ae9dbd;
         padding: 10;
         text-align: center;
+    }
+    footer img{
+        width: 40px;
     }
     h3 {
         font-family: Arial;
@@ -437,6 +449,9 @@ p {
         padding: 10;
         text-align: center;
     }
+    footer img{
+        width: 40px;
+    }
     h3 {
         font-family: Arial;
         font-size: 1em;
@@ -496,6 +511,117 @@ p {
         border: 1px solid;
         text-align: center;
         padding: 1em 2em;
+        font-size: small;
+    }
+    .references {
+        position: relative;
+        margin-bottom: 1em;
+    }
+    .references q {
+        display: block;
+        margin-bottom: 1em;
+    }
+    .references a {
+        position: absolute;
+        right: 0em;
+
+    }
+    .references p {
+        position: absolute;
+        right: 0em;
+        margin-top: 1em;
+    }
+    
+}
+@media(max-width: 321px) {
+    body {
+        font-family: Source Sans Pro;
+        font-size: medium;
+        margin: 0;
+        background-color: #252128;
+    }
+    header {
+        background: #ae9dbd;
+        padding: 8 0 8 0;
+        position: fixed;
+        width: 100%;
+        z-index: 1;
+    }
+    header img {
+        width: 60px;
+        height: 35px;
+    }
+    footer {
+        background: #ae9dbd;
+        padding: 5px;
+        text-align: center;
+    }
+    footer img{
+        width: 25px;
+    }
+    h3 {
+        font-family: Arial;
+        font-size: small;
+        color: #252128;
+    }
+    h4 {
+        font-family: Arial;
+        font-size: 0.8em;
+        color: #252128;
+    }
+    q {
+        font-style: italic;
+        font-size: smaller;
+        color: #c68a08;
+    }
+    p {
+        font-family: Source Sans Pro;
+        color: #252128;
+        font-size: 0.8em;
+    }
+    li {
+        font-size: smaller;
+    }
+    #container {
+        max-width: 320px;
+        padding: 52px 40px 30px;
+        background-color: #f7f7f7;
+    }
+    .sidebar {
+        height: 100%;
+        width: 36px;
+        position: fixed;
+        float: left;
+        padding-top: 90;
+        background-color: #ae9dbd;
+    }
+    .heading {
+        font-family: Arial;
+        border-bottom: 2px solid;
+        padding-bottom: 0.5em;
+    }
+    .heading h1 {
+        padding-left: 1em;
+        padding-top: 10px;
+        font-size: 20px;
+    }
+    .heading h2, .heading p {
+        padding-left: 1em;
+        font-size: 15px;
+    }
+    .heading img {
+        float: right;
+        width: 90px;
+    }
+    .contacts {
+        border: 1px solid;
+        border-collapse: collapse;
+        margin: auto;
+    }
+    .contacts th, .contacts td {
+        border: 1px solid;
+        text-align: center;
+        padding: 6px;
         font-size: small;
     }
     .references {
