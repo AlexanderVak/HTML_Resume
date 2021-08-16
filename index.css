@@ -533,7 +533,7 @@ p {
     }
     
 }
-@media(max-width: 321px) {
+@media(max-width: 376px) {
     body {
         font-family: Source Sans Pro;
         font-size: medium;
