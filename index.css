@@ -508,12 +508,12 @@ p {
     }
     .references a {
         position: absolute;
-        right: 1em;
-        top: 3em;
+        right: 0em;
+
     }
     .references p {
         position: absolute;
-        right: 1em;
-        top: 4em;
+        right: 0em;
+        margin-top: 1em;
     }
 }
