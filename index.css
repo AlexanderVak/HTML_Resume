@@ -1,0 +1,51 @@
+body {
+    font-family: Source Sans Pro;
+    font-size: large;
+    margin: 0;
+    background-color: #252128;
+
+}
+
+h3 {
+    font-family: Arial;
+    font-size: larger;
+    color: #252128;
+}
+
+q {
+    font-style: italic;
+    color: #c68a08;
+}
+
+p {
+    font-family: Source Sans Pro;
+    color: #252128;
+    font-size: large;
+}
+
+#container {
+    max-width: 900px;
+    padding-top: 90px;
+    padding-bottom: 30px;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin: auto;
+    background-color: #f7f7f7;
+
+}
+
+.contacts {
+    border: 1px solid;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.contacts th,
+td {
+    border: 1px solid;
+    text-align: center;
+    padding-right: 2em;
+    padding-top: 1em;
+    padding-left: 2em;
+    padding-bottom: 1em;
+}
